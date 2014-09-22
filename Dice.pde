@@ -43,7 +43,6 @@ class Die //models one single dice cube
 	{
 		fill(255);
 		rect(myX, myY, 100, 100);
-		System.out.println(numDots);
 		if(numDots == 1)
 		{
 			fill(0);

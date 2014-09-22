@@ -59,7 +59,6 @@ class Die //models one single dice cube
 	{
 		fill(255);
 		rect(myX, myY, 100, 100);
-		System.out.println(numDots);
 		if(numDots == 1)
 		{
 			fill(0);
@@ -132,9 +131,6 @@ class Die //models one single dice cube
 			}
 		}	
 	}
-	// total = total + numDots;
-	// textSize(20);
-	// text(total, 250, 250);
 }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "Dice" };
